@@ -15,6 +15,7 @@ pub(crate) mod field32 {
     pub const F0: Field = 0..4;
     pub const F1: Field = 4..8;
     pub const F2: Field = 8..12;
+    pub const F3: Field = 12..16;
 }
 
 pub(crate) mod field64 {
@@ -23,6 +24,7 @@ pub(crate) mod field64 {
     pub const F0: Field = 0..8;
     pub const F1: Field = 8..16;
     pub const F2: Field = 16..24;
+    pub const F3: Field = 24..32;
 }
 
 #[derive(Debug, Copy, Clone, Eq, PartialEq, Ord, PartialOrd, Hash, err_derive::Error)]
